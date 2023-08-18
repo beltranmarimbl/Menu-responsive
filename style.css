@@ -1,0 +1,50 @@
+* {
+    font-family: 'Playfair Display', serif;
+    font-weight: 5;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20px 1fr 49px;
+    background: #d56;
+}
+
+img {
+    max-width: 50px;
+}
+
+.logo {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: auto;
+}
+
+.lupa {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin: auto ;
+}
+
+.titulo {
+    font-size: 20px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    color: #fff;
+    margin: auto;
+    padding: 9px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.nav {
+    background: #d569;
+    padding: 10px;
+    margin: auto;
+}
+.enlace {
+    display: inline-block;
+}
+
